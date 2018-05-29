@@ -33,7 +33,7 @@ class NetController {
         if (!this.wsLogin) {
             this.wsLogin = new WS();
         }
-        this.wsLogin.connect("118.31.69.15", 9003, "login"); //阿里云ip
+        this.wsLogin.connect("192.168.1.81", 3000, "login"); //阿里云ip
         // this.wsLogin.connect("echo.websocket.org", 80,"login");
         // this.wsLogin.connect("192.168.1.154", 9000,"login");    //陈飞的ip
         // this.wsLogin.connect("192.168.1.79", 9000,"login");    //陈飞的ip

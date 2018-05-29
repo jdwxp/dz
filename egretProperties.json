@@ -12,7 +12,7 @@
 		"native": 1,
 		"path": "bin-release"
 	},
-	"egret_version": "5.0.7",
+	"egret_version": "5.0.14",
 	"template": {},
 	"modules": [
 		{

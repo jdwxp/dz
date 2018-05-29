@@ -144,7 +144,7 @@ class User extends eui.Component {
 		this._headImgData = headImgData;
 		if (this.headImg) {
 			this.imageLoader.once(egret.Event.COMPLETE, (e: egret.Event) => {
-				this.headImg.bitmapData = e.currentTarget.data;
+				this.headImg.$bitmapData = e.currentTarget.data;
 			}, this);
 			this.imageLoader.load(headImgData);
 		}
